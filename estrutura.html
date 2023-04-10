@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Melhor cantor(a) da Bahia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__results">
+            <div class="container__results__header">
+                <h4>SEU VOTO PARA</h4>
+                <h5 align="center">MELHOR CANTOR(A) DA BAHIA</h5>
+                <br>
+            </div>
+
+            <div class="container__results__result">
+                <div class="view">
+                    <div class="view__screen"></div>
+                </div>
+                <br>
+
+                <div class="container__results__main"></div>
+            </div>
+
+            <div class="container__results__footer">
+                <hr>
+                <p>Aperte a tecla:</p>
+                <p>CONFIRMAR para CONFIRMAR seu voto</p>
+                <p>CORRIGIR para RESETAR os números discados</p>
+                <p>BRANCO para anular seu voto</p>
+            </div>
+        </div>
+
+        <div class="container__disk">
+            <div class="container__disk__buttons">
+                <button class="container__disk__button" onclick="addNumber(1)"> <span>1</span></button>
+                <button class="container__disk__button" onclick="addNumber(2)"> <span>2</span></button>
+                <button class="container__disk__button" onclick="addNumber(3)"> <span>3</span></button>
+                <button class="container__disk__button" onclick="addNumber(4)"> <span>4</span></button>
+                <button class="container__disk__button" onclick="addNumber(5)"> <span>5</span></button>
+                <button class="container__disk__button" onclick="addNumber(6)"> <span>6</span></button>
+                <button class="container__disk__button" onclick="addNumber(7)"> <span>7</span></button>
+                <button class="container__disk__button" onclick="addNumber(8)"> <span>8</span></button>
+                <button class="container__disk__button" onclick="addNumber(9)"> <span>9</span></button>
+                <div></div>
+                <button class="container__disk__button" onclick="addNumber(0)"> <span>0</span></button>
+                <div></div>
+                <button class="operations" id="white" onclick="whiteButton()">BRANCO</button>
+                <button class="operations" id="correct" onclick="resetNumber()">CORRIGIR</button>
+                <button class="operations" id="confirm" onclick="confirmButton()">CONFIRMAR</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+.container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container__results {
+    background-color: #a09090;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #AAA;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.container__results__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__results__header h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container__results__header h5 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container__results__result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.view__screen {
+    width: 200px;
+    height: 200px;
+    background-color: #DDD;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container__results__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__results__footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__results__footer hr {
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #AAA;
+}
+
+.container__results__footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container__disk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__disk__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container__disk__button {
+    width: 70px;
+    height: 70px;
+    background-color: #FFF;
+    border: 1px solid #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.container__disk__button span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.operations {
+    width: 100px;
+    height: 70px;
+    background-color: #FFF;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#white {
+    color: #FFF;
+    background-color: #AAA;
+}
+
+#correct {
+    color: #FFF;
+    background-color: #FF0000;
+}
+
+#confirm {
+    color: #FFF;
+    background-color: #008000;
+}
