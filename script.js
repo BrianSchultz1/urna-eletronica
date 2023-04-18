@@ -8,7 +8,7 @@ const cantores = [
     {
         photo: "https://imagens1.ne10.uol.com.br/blogsne10/social1/uploads/2012/02/luiz_caldas.jpg",
         name: "O rei do axé",
-        style: "Axé music",
+        style: "Axé music", 
         number: 77
     },
     {
